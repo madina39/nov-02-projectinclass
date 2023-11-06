@@ -14,7 +14,7 @@ jobs:
   terraform:
     defaults:
       run:
-        working-directory: ./modules/security_gorup
+        working-directory: ./modules
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
